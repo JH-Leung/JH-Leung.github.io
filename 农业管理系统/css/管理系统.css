@@ -1,0 +1,278 @@
+html,body{
+    height: 100%;
+}
+.box{
+    height: 100%;
+    background: green;
+}
+.top{
+    height: 87px;
+    background: url(../images/管理系统/headbj.jpg) repeat-x bottom,#7ab5e9;
+    position: relative;
+}
+.bottom{
+    height: calc(100% - 87px);
+    background: red;
+}
+
+
+h1{
+width: 428px;
+height: 50px;
+background: url(../images/管理系统/logo.png);
+position: absolute;
+ top: 30px;
+ left: 30px;
+ text-indent: -9999px;
+}
+/* ======================head开始================================================= */
+.head-ul{
+    width: 700px;
+    height: 56px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+
+}
+.head-ul .head-li{
+float: left;
+width: 100px;
+height: 56px;
+font-size: 14px;
+line-height: 14px;
+color: #ffffff;
+position: relative;
+}
+.head-ul .head-li1{
+    background: url(../images/管理系统/n1.png) no-repeat top center;
+}
+.head-li a{
+    position: absolute;
+    top: 35px;
+    width: 100px;
+    text-align: center;
+    color: #ffffff;
+
+}
+.head-ul .head-li2{
+    background: url(../images/管理系统/n2.png) no-repeat top center;
+}
+.head-ul .head-li3{
+    background: url(../images/管理系统/n3.png) no-repeat top center;
+}
+.head-ul .head-li4{
+    background: url(../images/管理系统/n4.png) no-repeat top center;
+}
+.head-ul .head-li5{
+    background: url(../images/管理系统/n5.png) no-repeat top center;
+}
+.head-ul .head-li6{
+    background: url(../images/管理系统/n6.png) no-repeat top center;
+}
+.head-ul .head-li7{
+    background: url(../images/管理系统/n7.png) no-repeat top center;
+}
+.head-li1:hover{
+    background: url(../images/管理系统/n1_hover.png) no-repeat top center,url(../images/管理系统/libj.png) no-repeat center center;
+}
+.head-li2:hover{
+    background: url(../images/管理系统/n2_hover.png) no-repeat top center,url(../images/管理系统/libj.png) no-repeat center center;
+}
+.head-li3:hover{
+    background: url(../images/管理系统/n3_hover.png) no-repeat top center,url(../images/管理系统/libj.png) no-repeat center center;
+}
+.head-li4:hover{
+    background: url(../images/管理系统/n4_hover.png) no-repeat top center,url(../images/管理系统/libj.png) no-repeat center center;
+}
+.head-li5:hover{
+    background: url(../images/管理系统/n5_hover.png) no-repeat top center,url(../images/管理系统/libj.png) no-repeat center center;
+}
+.head-li6:hover{
+    background: url(../images/管理系统/n6_hover.png) no-repeat top center,url(../images/管理系统/libj.png) no-repeat center center;
+}
+.head-li7:hover{
+    background: url(../images/管理系统/n7_hover.png) no-repeat top center,url(../images/管理系统/libj.png) no-repeat center center;
+}
+
+.user{
+    width: 265px;
+    height: 22px;
+    background: url(../images/管理系统/head-l.jpg) no-repeat left center,url(../images/管理系统/head-r.jpg) no-repeat right,#fff;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    overflow: hidden;
+
+
+}
+.touxiang{
+    width: 16px;
+    height: 16px;
+    background: url(../images/管理系统/dl.png);
+    margin-left: 20px;
+    margin-top: 3px;
+    float: left;
+}
+.user span{
+    font-size: 12px;
+    line-height: 22px;
+    color: #6d6d6d;
+    margin-left: 10px;
+    float: left;
+}
+.user .jia{
+    width: 16px;
+    height: 16px;
+    background: url(../images/管理系统/left_15.png);
+    float: left;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+.user a{
+    font-size: 12px;
+    line-height: 22px;
+    color: #551a8b;
+}
+
+/* ======================head结束================================================= */
+/* ======================left开始================================================= */
+.left{
+    width: 195px;
+    height: calc(100% - 30px);
+    float: left;
+    background: url(../images/管理系统/e_01.jpg) no-repeat, url(../images/管理系统/leftbj.jpg) repeat-y right,#417ec8;
+padding-top: 30px;
+
+
+}
+.left .left-ul{
+    width: 100%;
+}
+.left .left-ul .left-li{
+    font-size: 14px;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    line-height: 32px;
+    border-top: 1px solid #2869bd;
+}
+.left .left-ul .left-li-1{
+    background: url(../images/管理系统/left_01.png) no-repeat 40px 10px;
+    border: none;
+}
+.left .left-ul .left-li-2{
+    background: url(../images/管理系统/left_02.png) no-repeat 40px center;
+}
+.left .left-ul .left-li-3{
+    background: url(../images/管理系统/left_03.png) no-repeat 40px center;
+}
+.left .left-ul .left-li .yincang{
+    display: none;
+}
+.left .left-ul .left-li:hover .yincang{
+    display: block;
+}
+.left .left-ul .left-li-1:hover{
+    background: url(../images/管理系统/left_hover.jpg) no-repeat;
+    color: #000;
+}
+.left .left-ul .left-li-1:hover .yincang a{
+    color: #adddff;
+}
+.yincangli{
+    background: url(../images/管理系统/jiao.png) no-repeat 60px;
+}
+
+
+/* ======================left结束================================================= */
+/* ======================right开始================================================= */
+.right{
+    width:calc(100% - 210px);
+    height: 100%;
+    background: #ffffff;
+    float: right;
+    padding-left: 15px;
+}
+
+.right-head{
+width: 100%;
+height: 24px;
+border-bottom: 1px solid #e3e3e3;
+background: url(../images/管理系统/home.jpg) no-repeat 0 center;
+}
+.right .right-head p{
+    font-size: 12px;
+    line-height: 24px;
+    color: #636363;
+    padding-left: 20px;
+}
+.right .right-head p a{
+    color: #636363;
+}
+.right-nav{
+    width: 100%;
+    height: 50px;
+    background: url(../images/管理系统/seacth.jpg) no-repeat 0 center;
+    position: relative;
+}
+    .right-nav .sousuo{
+        display: inline-block;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        margin-left: 30px;
+        font-weight: bold;
+    }
+    label{
+        margin-left: 30px;
+    }
+    .leixing1{
+        position: absolute;
+        left: 300px;
+        top: 12px;
+    }
+    .sousuokuang1{
+        width: 120px;
+        height: 24px;
+        border: 1px solid #bebebe;
+        position: absolute;
+        left: 175px;
+        top: 12px;
+    }
+    .sousuokuang2{
+        width: 117px;
+        height: 22px;
+        border: 1px solid #bebebe;
+        position: absolute;
+        left: 420px;
+        top: 12px;
+    }
+    .chaxun{
+        width: 56px;
+        height: 22px;
+        border: 1px solid #bebebe;
+        position: absolute;
+        left: 550px;
+        top: 12px;
+        background: #f5f5f5;
+    }
+
+
+    .right table{
+        width: 100%;
+        border-spacing: 0px;
+        border-collapse: collapse;
+
+    }
+    .right tr{
+
+    }
+
+    .right table td{
+        height: 30px;
+        text-align: center;
+
+    }
+    tr:nth-child(2n){
+        background:#f1f1f1;
+    }
