@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "icon";
+    src: url('../iconfont/iconfont.eot');
+    src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../iconfont/iconfont.svg#icomoon') format('svg'),
+        url('../iconfont/iconfont.woff') format('woff'),
+        url('../iconfont/iconfont.ttf') format('truetype');
+}
+i{
+    font-family: icon;
+    font-style: normal;
+}
+.zhifubao::after{
+    content: "\e600"
+}

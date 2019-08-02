@@ -1,0 +1,163 @@
+html, body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#zhifubao {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#zhifubao .header {
+  height: 160px;
+  background: #3f454f;
+  display: flex;
+  flex-direction: column;
+}
+
+#zhifubao .header .header-top {
+  display: flex;
+  flex: 1;
+}
+
+#zhifubao .header .header-top ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+#zhifubao .header .header-top ul li {
+  flex: 1;
+}
+
+#zhifubao .header .header-top ul li i {
+  color: #fff;
+  font-size: 20px;
+}
+
+#zhifubao .header .header-top ul li:nth-child(1) {
+  display: flex;
+  flex: 6;
+  padding-left: 16px;
+  align-items: center;
+}
+
+#zhifubao .header .header-top ul li:nth-child(1) i {
+  color: #fff;
+  font-size: 23px;
+}
+
+#zhifubao .header .header-top ul li:nth-child(1) span {
+  font-size: 12px;
+  color: #fff;
+}
+
+#zhifubao .header .header-bottom {
+  display: flex;
+  flex: 3;
+}
+
+#zhifubao .header .header-bottom ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+#zhifubao .header .header-bottom li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#zhifubao .header .header-bottom li i {
+  font-size: 35px;
+  color: #fff;
+  line-height: 35px;
+}
+
+#zhifubao .header .header-bottom li span {
+  color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 15px;
+}
+
+#zhifubao .main {
+  flex: 1;
+}
+
+#zhifubao .main ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#zhifubao .main ul li {
+  width: 25%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#zhifubao .main ul li span {
+  font-size: 13px;
+  color: #4b4b4b;
+  line-height: 13px;
+  margin-top: 10px;
+}
+
+#zhifubao .main ul li i {
+  font-size: 25px;
+  line-height: 25px;
+  color: #2eb3e8;
+}
+
+#zhifubao .main ul li:nth-child(-n+16) {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+#zhifubao .main ul li:nth-child(-n+20) {
+  border-right: 1px solid #e6e6e6;
+}
+
+#zhifubao .main ul li:nth-child(4n) {
+  border-right: none;
+}
+
+#zhifubao .footer {
+  height: 50px;
+  background: #ffffff;
+  border-top: 1px solid #d9d9d9;
+}
+
+#zhifubao .footer ul {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+#zhifubao .footer ul li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#zhifubao .footer ul li i {
+  font-size: 20px;
+  color: #929292;
+}
+
+#zhifubao .footer ul li span {
+  font-size: 9px;
+  color: #929292;
+}
