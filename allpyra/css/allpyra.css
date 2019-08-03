@@ -1,0 +1,338 @@
+html,
+body {
+  height: 100%;
+}
+
+#allpyra {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+#allpyra .header {
+  height: 44px;
+  display: flex;
+}
+
+#allpyra .header .left {
+  flex: 1;
+  background: url(../images/lingdang.png) center center no-repeat;
+}
+
+#allpyra .header .center {
+  flex: 5;
+  background: url(../images/logo.png) center center no-repeat;
+}
+
+#allpyra .header .right {
+  flex: 1;
+  background: #58a;
+  background: url(../images/sousuo.png) center center no-repeat;
+}
+
+#allpyra .main {
+  flex: 1;
+  overflow: auto;
+}
+
+#allpyra .main img {
+  width: 100%;
+}
+
+#allpyra .main .main1 {
+  padding-bottom: 5px;
+  border-bottom: 10px solid #f4f4f4;
+}
+
+#allpyra .main .main1 ul {
+  display: flex;
+  justify-content: space-around;
+  height: 75px;
+}
+
+#allpyra .main .main1 ul li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#allpyra .main .main1 ul li i {
+  width: 40px;
+  height: 40px;
+  background: url(../images/icon1.png) center center no-repeat;
+  background-size: 100% 100%;
+  line-height: 40px;
+}
+
+#allpyra .main .main1 ul li span {
+  margin-top: 10px;
+  font-size: 9px;
+  line-height: 9px;
+  color: #1e1e1e;
+}
+
+#allpyra .main .main1 ul li:nth-child(2) i {
+  background: url(../images/icon2.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main1 ul li:nth-child(3) i {
+  background: url(../images/icon3.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main1 ul li:nth-child(4) i {
+  background: url(../images/icon4.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main2 {
+  height: 50px;
+  background: url(../images/bg.png) center center no-repeat;
+  background-size: 100% 100%;
+  border-bottom: 10px solid #f4f4f4;
+  padding-top: 14px;
+}
+
+#allpyra .main .main2 p {
+  font-size: 12px;
+  color: #535353;
+  text-align: center;
+}
+
+#allpyra .main .main3 {
+  width: 90%;
+  margin: auto;
+}
+
+#allpyra .main .main3 ul {
+  height: 150px;
+  display: flex;
+  flex-shrink: 0;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+#allpyra .main .main3 ul li {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+#allpyra .main .main3 ul li i {
+  width: 100px;
+  height: 100px;
+  background: url(../images/list1-1.jpg);
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main3 ul li p {
+  font-size: 10px;
+  color: #333333;
+  text-align: center;
+}
+
+#allpyra .main .main3 ul li span {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #353535;
+}
+
+#allpyra .main .main3 ul li:nth-child(2) i {
+  background: url(../images/list1-2.jpg);
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main3 ul li:nth-child(3) i {
+  background: url(../images/list1-3.jpg);
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main3 ul li:nth-child(4) i {
+  background: url(../images/list1-4.jpg);
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main3 ul li:nth-child(5) i {
+  background: url(../images/list1-5.jpg);
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main3 ul li:nth-child(6) i {
+  background: url(../images/list1-6.jpg);
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main3 ul:nth-child(4) li:nth-child(1) i {
+  background: url(../images/list2-1.jpg);
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main3 ul:nth-child(4) li:nth-child(2) i {
+  background: url(../images/list2-2.jpg);
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main3 ul:nth-child(4) li:nth-child(3) i {
+  background: url(../images/list2-3.jpg);
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main3 ul:nth-child(4) li:nth-child(4) i {
+  background: url(../images/list2-4.jpg);
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main3 ul:nth-child(4) li:nth-child(5) i {
+  background: url(../images/list2-3.jpg);
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main3 ul:nth-child(4) li:nth-child(6) i {
+  background: url(../images/list2-4.jpg);
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main4 {
+  width: 90%;
+  margin: auto;
+}
+
+#allpyra .main .main4 h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #373737;
+}
+
+#allpyra .main .main4 h5 {
+  text-align: center;
+  font-size: 10px;
+  color: #505050;
+  margin-bottom: 30px;
+}
+
+#allpyra .main .main4 ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#allpyra .main .main4 ul li {
+  width: 45%;
+  height: 220px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px 10px #f0f0f0;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#allpyra .main .main4 ul li i {
+  width: 105px;
+  height: 120px;
+  background: url(../images/img1.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main4 ul li p {
+  font-size: 12px;
+  color: #383838;
+}
+
+#allpyra .main .main4 ul li h3 {
+  width: 100%;
+  padding-right: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#allpyra .main .main4 ul li h3 a {
+  color: #ff4680;
+  font-size: 16px;
+}
+
+#allpyra .main .main4 ul li h3 span {
+  font-size: 11px;
+  color: #b7b7b7;
+}
+
+#allpyra .main .main4 ul li:nth-child(2) i {
+  background: url(../images/img2.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main4 ul li:nth-child(3) i {
+  background: url(../images/img3.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main4 ul li:nth-child(4) i {
+  background: url(../images/img4.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main4 ul li:nth-child(5) i {
+  background: url(../images/img5.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+#allpyra .main .main4 ul li:nth-child(6) i {
+  background: url(../images/img6.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+#allpyra .footer {
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #e8e8e8;
+}
+
+#allpyra .footer div {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#allpyra .footer div i {
+  width: 24px;
+  height: 24px;
+  background: url(../images/tab1.png);
+  background-size: 100% 100%;
+}
+
+#allpyra .footer div span {
+  font-size: 12px;
+  color: #b7b7b7;
+}
+
+#allpyra .footer div:nth-child(2) i {
+  background: url(../images/tab2.png);
+  background-size: 100% 100%;
+}
+
+#allpyra .footer div:nth-child(3) i {
+  background: url(../images/tab3.png);
+  background-size: 100% 100%;
+}
+
+#allpyra .footer div:nth-child(4) i {
+  background: url(../images/tab4.png);
+  background-size: 100% 100%;
+}
