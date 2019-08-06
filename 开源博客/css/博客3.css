@@ -48,6 +48,7 @@
   padding-left: 5px;
   padding-right: 5px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 #boke .header .nav2 h2 span ul {
