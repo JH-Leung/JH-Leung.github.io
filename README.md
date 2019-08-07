@@ -9,7 +9,6 @@
 <a href="https://jh-leung.github.io/allpyra/html/allpyra.html">allpyra</a><br>
 <a href="https://jh-leung.github.io/%E9%A5%BF%E6%AD%BB%E4%BA%86%E5%90%97/html/%E9%A5%BF%E4%BA%86%E4%B9%88.html">饿了吗</a><br>
 <a href="https://jh-leung.github.io/%E9%A5%BF%E6%AD%BB%E4%BA%86%E5%90%97/html/%E5%8F%91%E7%8E%B0.html">发现</a><br>
-https://jh-leung.github.io/%E5%A9%9A%E7%A4%BC%E7%BA%AA%E7%A7%BB%E5%8A%A8/html/%E5%A9%9A%E7%A4%BC%E7%BA%AA.html
 <a href="https://jh-leung.github.io/%E5%A9%9A%E7%A4%BC%E7%BA%AA%E7%A7%BB%E5%8A%A8/html/%E5%A9%9A%E7%A4%BC%E7%BA%AA.html">婚礼纪移动端</a><br>
 
 
